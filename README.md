@@ -8,7 +8,7 @@ Made by Group 4 of CSLP 2023/2024 :
 
 - Rodrigo Aguiar nmec 108969
 - Diogo Almeida nmec xxxxxx
-- Alexandre Ribeiro nmec xxxxxx
+- Alexandre Ribeiro nmec 108122
 
 ## Setup 
 
