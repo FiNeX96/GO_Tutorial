@@ -7,7 +7,7 @@ This tutorial is designed to help you get started with the GO programming langua
 Made by Group 4 of CSLP 2023/2024 :
 
 - Rodrigo Aguiar nmec 108969
-- Diogo Almeida nmec xxxxxx
+- Diogo Almeida nmec 108902
 - Alexandre Ribeiro nmec 108122
 
 ## Setup 
