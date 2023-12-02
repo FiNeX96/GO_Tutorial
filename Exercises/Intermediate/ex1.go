@@ -2,8 +2,6 @@ package main
 
 import "fmt"
 
-
-
 // Complete the function below to reverse a string
 
 func ReverseString(s string) string {

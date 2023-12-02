@@ -25,7 +25,6 @@ func main() {
 
 
 	// read data from a file and print it to a terminal
-	// you may use the file test.txt
 
 	data, err := ioutil.ReadFile("test.txt")
 
