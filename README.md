@@ -12,7 +12,7 @@ Made by Group 4 of CSLP 2023/2024 :
 
 ## Setup 
 
-To install the GO programming language, refer to the official tutorial [here](https://go.dev/doc/installl).
+To install the GO programming language, refer to the official tutorial [here](https://go.dev/doc/install).
 
 After installing, to check if everyone works fine you can complete the [Getting Started Guide](https://go.dev/doc/tutorial/getting-started).
 
