@@ -36,7 +36,6 @@ if exists {
 
 func main() {
 
-	fmt.Println("Hello World") // you can delete this line after u insert some code here
 
 	// Start by creating a map with key type string and value type int
 
@@ -51,11 +50,6 @@ func main() {
 
 
 	// Print the map again
-
-
-	
-
-	
 
 
 

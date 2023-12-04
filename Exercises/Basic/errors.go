@@ -17,7 +17,7 @@ func divide(x, y int) (int, error) {
 
 	/*
 	In Go, nil is a predeclared identifier that represents a "zero value" or "null" value for pointers, slices, maps, channels, and function types.
-	Its frequently used to represent a absence of a value ( null ) or to handle errors
+	Its frequently used to represent a absence of a value ( null ) or to handle errors.
 	*/
 }
 
