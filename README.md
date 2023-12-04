@@ -53,7 +53,9 @@ As in the Basic section, you already have a go module created, so you can start 
 ### More 
 
 In this section we will look into some known library integrations for GO.
+
 Go is mostly used as a language to program server-side services and applications, so we will look into some examples of how to use it to create a simple web server with GIN and SQLITE.
+
 We will also take a look on how to use RabbitMQ to create a simple messaging system, with the help of GO routines.
 
 
