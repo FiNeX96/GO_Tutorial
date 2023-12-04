@@ -21,7 +21,7 @@ import ( "fmt"
 	If it doesnt work, try checking your distro's documentation on how to install rabbitmq
 	After that boot it up, usually with this command -> sudo service rabbitmq-server start ( or ) sudo rabbitmq-server
 
-	PS: The imports you may need are already imported for you. Run go mod tidy to download them.
+	PS: The imports you may need are already imported for you.  Uncomment them and run go mod tidy to download them.
 	
 
 */
@@ -33,7 +33,7 @@ func main(){
 
 	/*
 
-	Start by analysing the function below.
+	Start by analysing the function below ( end of the file )
 	It creates a connection to the rabbitmq server and creates a channel to send messages to.
 	It then returns this channel so that we can use it to send messages to the queue and receive messages .
 
@@ -90,11 +90,11 @@ func main(){
 
 	Now we will tell main to wait for these 2 go routines to finish:
 
-	wg.Wait()
+	wg.Wait() // put this code after calling the 2 go routines
 
 	( 
 	  In this case we are telling main to wait for routines that never finish. 
-	  We could program the routines to finish, but we dont want to in this case, they should finish when we CTRL-C 
+	  We could program the routines to finish like we did in the basic exercises, but we dont want to in this case, they should finish when we CTRL-C 
 	)
 
 	*/
@@ -114,14 +114,6 @@ func main(){
 	Congratulations !
 
 	*/
-
-
-
-
-
-
-
-
 }
 
 

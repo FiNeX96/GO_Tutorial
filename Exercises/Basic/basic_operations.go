@@ -30,7 +30,7 @@ func main() {
 
 	// Loops
 	fmt.Println("Numbers from 1 to 5:")
-	for   i := 1; i <= 5; i++ { // may also use for 
+	for i := 1; i <= 5; i++ { 
 		fmt.Print(i, " ")
 	}
 	fmt.Println()

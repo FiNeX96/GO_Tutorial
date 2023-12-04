@@ -15,9 +15,6 @@ import "fmt"
 		// code
 	}
 
-
-	For the following exercises, you can ignore the error part
-
 */
 
 
@@ -26,7 +23,7 @@ import "fmt"
 
 
 // now declare a function that takes a string as input and returns the length of the string
-// hint: consider python to calculate the length =)
+// hint: consider the python way to calculate the length =)
 
 
 

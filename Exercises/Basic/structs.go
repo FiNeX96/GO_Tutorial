@@ -50,10 +50,10 @@ import ("fmt")
 // Now using the main function, create an object of the struct you just created
 
 
-// Print the attributes of the object you just created, you can use the following syntax -> object.attribute
+// Print the attributes of the object you just created, you can use the following syntax to get a attribute value -> object.attribute
 
 
-// Now write a method upon the struct you created, the syntax is the one explained above ( use your imagination =) )
+// Now write a method upon the struct you created, the syntax is the one explained above ( for example, print all the attributes of the object )
 
 
 // Finally, call the method you just created and print its result

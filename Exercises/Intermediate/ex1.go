@@ -6,7 +6,7 @@ import "fmt"
 
 func ReverseString(s string) string {
     // Your code here
-	// Tip : lookup the rune datatype -> https://www.geeksforgeeks.org/rune-in-golang/
+	// Tip : You can convert a string to a array of runes by doing []rune(s)
 }
 
 func main() {

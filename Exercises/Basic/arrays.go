@@ -13,25 +13,29 @@ You can also define multidimensional arrays, like this:
 
 - var arr2 [5][5] int
 
+Go uses the following definitions:
 
-You dont need to give it initial sizes, you can do this:
+- array : fixed length  -> [5]int{1,2,3,4,5}
 
-- var arr3 [] int
+- slice : dynamic length -> []int{1,2,3,4,5}
 
-You can give the array starting values:
+If you have a array, you can easily create a slice of it :
 
-- var arr3 = [] int {1,2,3,4,5}
+arr := [5]int{1,2,3,4,5}
 
+slice := arr[:] for all elements
 
-You can also append values to the array with the following syntax
+slice := arr[1:3] for elements index 1 and 2
 
-arr3 = append(arr3, 6)
+Some operations can only be done on slices, such as appending.
 
+The syntax to append to a slice is:
 
-You can create slices of arrays, like you do in Python:
+slice = append(slice, element) - you can only append to slices, not arrays !
 
-arr3_sliced := arr3[1:] -> slice with all elements except first n
+You can also append slices to other slices, with the following syntax:
 
+slice = append(slice, slice2...) - this tells the compiler to unpack slice2 and append each element to slice
 
 
 */
@@ -45,14 +49,14 @@ func main(){
 	// print the array
 
 
-	// append a value to the array 
+	// append a value to the array ( remember, you need to convert it to a slice first ! )
 
 
 	// now create a function to remove a specific index from the array ( tip : use slices and append )
 	// This one may be a bit tricky, feel free to ask for help =)
 
 
-	// print the array with the removed index again
+	// print the array/slice with the removed index again
 
 
 

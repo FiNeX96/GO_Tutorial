@@ -20,7 +20,7 @@ func main() {
 
 	var x int 
 	fmt.Print("Enter a number: ")
-	fmt.Scan(&x)
+	fmt.Scan(&x) // similar to C scanf
 	fmt.Println("Your number -> " ,x)
 
 
