@@ -17,6 +17,8 @@ import "fmt"
 
 */
 
+// <- ch 
+
 
 // start by declaring a function to add two numbers
 
@@ -30,10 +32,9 @@ import "fmt"
 
 // Use this main function to test your functions
 func main() {
+	
 
 	fmt.Println("Hello World") // you can delete this line after u insert some code here 
 
 	
-
-
 }
