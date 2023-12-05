@@ -38,18 +38,24 @@ func main() {
 
 
 	// Start by creating a map with key type string and value type int
-
+	ages := make(map[string]int)
 
 	// Now add some key-value pairs to the map ( you can assume its people and their age )
-
+	ages["Alice"] = 15
+	ages["Bob"] = 40
 
 	// Print the map
-
+	for name, age := range ages {
+		fmt.Printf("%s: %d\n", name, age)
+	}
 
 	// Now delete a key-value pair from the map
-
+	delete(ages, "Bob")
 
 	// Print the map again
+	for name, age := range ages {
+		fmt.Printf("%s: %d\n", name, age)
+	}
 
 
 
