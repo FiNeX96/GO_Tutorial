@@ -2,7 +2,6 @@
 
 ## Overview
 
-
 This tutorial is designed to help you get started with the GO programming language.
 
 Made by Group 4 of CSLP 2023/2024 :
